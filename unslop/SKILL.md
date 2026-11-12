@@ -127,12 +127,6 @@ adverb propping up a weak verb means the verb is wrong.
 "facilitate" becomes "help", "numerous" becomes "many", "in the event that"
 becomes "if". The fancier synonym is rarely clearer.
 
-32\. **Mannered prose.** Metaphor or flourish where a literal phrase exists:
-aphorisms ("wire it or delete it"), rhetorical fragments for effect, personified
-code ("the plan holds it"), figurative verbs ("rides along", "stands on"), stock
-framing phrases. "A dial worth turning" becomes "a parameter worth varying". Say
-what you mean. Rule 26 covers the metaphor nouns.
-
 33\. **Over-compression.** Dropped articles, verbless fragments, symbol-speak,
 and abbreviations that make the reader decode instead of read. "Parser rejects
 bad date → exit 2, no write" becomes "The parser rejects a bad date, exits with
@@ -143,28 +137,33 @@ verbs, and spell out arrows and abbreviations.
 
 > [!NOTE]
 > This tell survives every other fix in this list because it reads as skill
-> rather than slop. Scrub the earlier rules first, then check for what is left.
+> rather than slop. Scrub the earlier rules first, then check for what is
+> left. Rule 26 covers the metaphor nouns.
 
-34\.  **Metaphor swaps.** Swapping the literal phrase for a metaphor or flourish
-so the sentence can perform good writing: "a parameter worth varying" becomes "a
-dial worth turning", "this point still matters" becomes "this point earns its
-keep", "required" becomes "load-bearing". The phrases exist to display the
+34\. **Metaphor swaps.** Swapping the literal phrase for a metaphor or flourish
+so the sentence can perform good writing: "a dial worth turning" becomes "a
+parameter worth varying", "this point earns its keep" becomes "this point still
+matters", "load-bearing" becomes "required". The phrases exist to display the
 writer, not to convey the idea, and readers can tell. Say what you mean. When a
 literal phrase is available, use it.
 
-35\.  **Stray connotations.** Metaphors drag in connotations nobody chose: "a
+35\. **Stray connotations.** Metaphors drag in connotations nobody chose: "a
 dial" imports analog and adjustable where the thing is a boolean. Ask what the
 figure implies that the plain phrase does not.
 
-36\.  **Inanimate subjects.** Objects given feelings to earn a clever verb: "the
-index knows nothing of user patience". Name the mechanism instead.
+36\. **Inanimate subjects.** Objects given feelings or figurative verbs to earn
+a clever turn: "the index knows nothing of user patience", "the plan holds it",
+"this function rides along". Name the mechanism instead.
 
-37\.  **Orbiting sentences.** Sentences that circle a point through clause after
+37\. **Orbiting sentences.** Sentences that circle a point through clause after
 clause, then land it like a revealed insight. Lead with the point.
 
-38\.  **Wistful codas.** Philosophical sign-offs bolted onto technical text: "in
+38\. **Wistful codas.** Philosophical sign-offs bolted onto technical text: "in
 the end, software is about the quiet promises systems make". Cut the coda; the
 instructions before it are the content.
+
+46\. **Aphorisms.** Stock dictums standing in for guidance: "wire it or delete
+it". Say the actual rule for the case at hand.
 
 ### Performative wording
 
@@ -173,27 +172,27 @@ instructions before it are the content.
 > run-up, not just its tone: "And honestly? Here's the thing: it fails under
 > high concurrency" becomes "It fails under high concurrency".
 
-39\.  **Performed candor.** Announcing honesty before a routine claim: "I'll be
+39\. **Performed candor.** Announcing honesty before a routine claim: "I'll be
 blunt:", "not going to lie", "let's be honest". Make the point directly.
 
-40\.  **Staged revelation.** Dramatic run-ups that fake suspense: "Here's the
+40\. **Staged revelation.** Dramatic run-ups that fake suspense: "Here's the
 thing:", "And honestly?". The claim that follows is usually ordinary. Cut the
 run-up.
 
-41\.  **Audience directions.** Commands telling the reader when to react: "Let
+41\. **Audience directions.** Commands telling the reader when to react: "Let
 that sink in", "Sit with that", "Read that again". Remove them.
 
-42\.  **Announced emotion.** Telling the reader how to feel instead of showing
+42\. **Announced emotion.** Telling the reader how to feel instead of showing
 what earned the feeling: "quietly devastating", "genuinely fascinating",
 "chillingly simple". Describe the thing.
 
-43\.  **Self-narration.** Reporting the text's own effect on the writer: "this
+43\. **Self-narration.** Reporting the text's own effect on the writer: "this
 one hit me", "I keep coming back to this". State the idea. Cut the reaction
 report.
 
-44\.  **Ghost objections.** Arguing with objections nobody raised: "To be clear,
+44\. **Ghost objections.** Arguing with objections nobody raised: "To be clear,
 I'm not saying...", "Don't get me wrong". Answer the actual point.
 
-45\.  **Typographic drama.** Formatting doing the emphasis work: italics on
+45\. **Typographic drama.** Formatting doing the emphasis work: italics on
 *actually*, "Every. Single. Day.", one-word paragraphs. Write the sentence so it
 needs none.
