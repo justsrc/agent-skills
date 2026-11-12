@@ -5,49 +5,21 @@ description: Cuts AI writing tells from prose. Must always apply.
 
 # Unslop
 
-Edit text to remove AI patterns and add human voice.
-
-## Process
-
-1. Scan for the patterns below.
-2. Rewrite. Preserve meaning, match intended tone.
-3. Add soul (see next section).
-4. Self-audit: "What makes this obviously AI generated?" Fix remaining tells.
-
-## Adding soul
-
-Removing patterns is half the job. Sterile, voiceless writing is just as
-obvious.
-
-- **Have opinions.** React to facts instead of neutrally listing pros and cons.
-- **Vary rhythm.** Short sentences. Then longer ones that take their time. Mix
-it up.
-- **Acknowledge complexity.** "Impressive but also kind of unsettling" beats
-"impressive."
-- **Use "I" when it fits.** First person isn't unprofessional.
-- **Let some mess in.** Perfect structure looks machine-made.
-- **Be specific.** Not "this is concerning" but "there's something unsettling
-about agents churning away at 3am."
+Edit text to remove AI patterns. Scan for the patterns below, then rewrite.
+Preserve meaning and match the intended tone.
 
 ## Patterns to detect and fix
 
+Rule numbers are stable ids that other skills cite. A removed rule leaves a gap.
+
 ### Content
 
-1. **Puffery.** "pivotal moment", "testament to", "evolving landscape", "setting
-   the stage for", "indelible mark", "deeply rooted". Cut puffery, state what
-   happened.
-2. **Name-dropping.** Listing media outlets without context. Pick one, say what
-   was said.
-3. **Superficial -ing phrases.** "highlighting...", "ensuring...",
-   "reflecting...", "showcasing...", "fostering...". Delete or expand with real
-   sources.
-4. **Promotional language.** "nestled", "vibrant", "breathtaking",
-   "groundbreaking", "renowned", "stunning", "must-visit". Use neutral
-   descriptions.
-5. **Vague attributions.** "Experts believe", "Industry reports suggest", "Some
-   critics argue". Name the source or delete.
-6. **Formulaic challenges.** "Despite challenges... continues to thrive."
-   Replace with specific facts.
+3\. **Superficial -ing phrases.** "highlighting...", "ensuring...",
+"reflecting...", "showcasing...", "fostering...". Delete or expand with real
+sources.
+
+5\. **Vague attributions.** "Experts believe", "Industry reports suggest", "Some
+critics argue". Name the source or delete.
 
 ### Language
 
@@ -57,11 +29,11 @@ showcase, tapestry (abstract), testament, underscore, vibrant. Replace with
 plain words.
 
 8\. **Fancy ways to say "is".** "serves as", "stands as", "boasts", "features".
-Just say "is" or "has".
+Say "is" or "has".
 
 9\. **"Not just X, but Y."** State the point directly instead.
 
-10\. **Rule of three.** Forcing ideas into groups of three. Use the natural
+10\. **Rule of three.** Don't force ideas into groups of three. Use the natural
 number.
 
 11\. **Synonym cycling.** Protagonist, main character, central figure, hero all
@@ -73,11 +45,10 @@ List topics directly.
 ### Style
 
 13\. **Em dash overuse.** Avoid em dashes entirely. Use periods or commas only
-(no parentheses, no en dashes, no hyphen-as-dash substitutes). Em dashes are an
-AI tell, and reaching for parentheses instead just trades one tell for another.
-If a thought needs separation, end the sentence or use a comma.
+(no parentheses, no en dashes, no hyphen-as-dash substitutes). If a thought
+needs separation, end the sentence or use a comma.
 
-14\. **Colon overuse.** Colons are fine before a list or example. Not as
+14\. **Colon overuse.** Colons are fine before a list or example, not as
 mid-sentence connectors. "If you're coming from traditional automation: instead
 of registering event handlers, you describe conditions" adds nothing with the
 colon. Rewrite to let the point stand on its own without comparison framing.
@@ -96,15 +67,12 @@ tell.
 
 18\. **Decorative emojis.** Remove from headings and bullets.
 
-19\. **Curly quotes.** Replace with straight quotes.
+19\. **Curly quotes.** Use straight quotes.
 
 ### Communication artifacts
 
 20\. **Chatbot phrases.** "I hope this helps!", "Let me know if...", "Of
 course!", "Certainly!", "Found the smoking gun!" Remove.
-
-21\. **Cutoff disclaimers.** "While specific details are limited..." Find
-sources or remove.
 
 22\. **Sycophantic tone.** "Great question! You're absolutely right!" Respond
 directly.
@@ -112,7 +80,7 @@ directly.
 ### Filler
 
 23\. **Filler phrases.** "In order to" becomes "To". "Due to the fact that"
-becomes "Because". "It is important to note that" gets deleted.
+becomes "Because". Delete "It is important to note that".
 
 24\. **Excessive hedging.** "could potentially possibly be argued that it might"
 becomes "may".
@@ -122,15 +90,14 @@ facts.
 
 ### Jargon
 
-26\. **Abstract metaphor nouns.** Substrate, wedge, vector, locus, vantage,
-nexus, primitive (as noun), harness (as metaphor), surface (as in "API
-surface"), bedrock, scaffolding (as metaphor), modality, paradigm, gold-plating,
-ratchet (as metaphor), evacuate (for moving code), endgame, north star,
-flywheel. These read as technical but usually have a plainer concrete word.
-"Substrate" becomes "base". "Wedge in" becomes "add". "Vector" becomes "way" or
-"method". "Gold-plating" becomes "more than the job needs". "Ratchet" becomes
-the mechanism's real name or "a limit that only tightens". "Evacuate" becomes
-"move out". "Endgame" becomes "the last phase". Pick the concrete word.
+26\. **Abstract metaphor nouns.** Substrate (base), wedge, wedge in (add),
+vector (way, method), locus, vantage, nexus, primitive as a noun, harness as a
+metaphor, surface as in "API surface", bedrock, scaffolding as a metaphor,
+modality, paradigm, gold-plating (more than the job needs), ratchet as a
+metaphor (the mechanism's real name, or a limit that only tightens), evacuate
+for moving code (move out), endgame (the last phase), north star, flywheel.
+These read as technical but usually have a plainer concrete word. Pick the
+concrete word.
 
 ### Plain speech
 
@@ -153,12 +120,24 @@ file". Passive is fine only when the actor is unknown or genuinely doesn't
 matter.
 
 30\. **Cut adverbs, or use a stronger verb.** "runs quickly" becomes "is fast"
-or the number. "significantly improves" becomes the measured delta. An adverb
-propping up a weak verb means the verb is wrong.
+or the number, and "significantly improves" becomes the measured delta. An
+adverb propping up a weak verb means the verb is wrong.
 
-31\. **Prefer the plain word.** "utilize" becomes "use", "leverage" becomes
-"use", "facilitate" becomes "help", "numerous" becomes "many", "in the event
-that" becomes "if". The fancier synonym is rarely clearer.
+31\. **Prefer the plain word.** "utilize" and "leverage" become "use",
+"facilitate" becomes "help", "numerous" becomes "many", "in the event that"
+becomes "if". The fancier synonym is rarely clearer.
+
+32\. **Mannered prose.** Metaphor or flourish where a literal phrase exists:
+aphorisms ("wire it or delete it"), rhetorical fragments for effect, personified
+code ("the plan holds it"), figurative verbs ("rides along", "stands on"), stock
+framing phrases. "A dial worth turning" becomes "a parameter worth varying". Say
+what you mean. Rule 26 covers the metaphor nouns.
+
+33\. **Over-compression.** Dropped articles, verbless fragments, symbol-speak,
+and abbreviations that make the reader decode instead of read. "Parser rejects
+bad date → exit 2, no write" becomes "The parser rejects a bad date, exits with
+code 2, and writes nothing." Write whole sentences with their articles and
+verbs, and spell out arrows and abbreviations.
 
 ### Mannered prose
 
@@ -166,24 +145,24 @@ that" becomes "if". The fancier synonym is rarely clearer.
 > This tell survives every other fix in this list because it reads as skill
 > rather than slop. Scrub the earlier rules first, then check for what is left.
 
-32\. **Metaphor swaps.** Swapping the literal phrase for a metaphor or flourish
+34\.  **Metaphor swaps.** Swapping the literal phrase for a metaphor or flourish
 so the sentence can perform good writing: "a parameter worth varying" becomes "a
 dial worth turning", "this point still matters" becomes "this point earns its
 keep", "required" becomes "load-bearing". The phrases exist to display the
 writer, not to convey the idea, and readers can tell. Say what you mean. When a
 literal phrase is available, use it.
 
-33\. **Stray connotations.** Metaphors drag in connotations nobody chose: "a
+35\.  **Stray connotations.** Metaphors drag in connotations nobody chose: "a
 dial" imports analog and adjustable where the thing is a boolean. Ask what the
 figure implies that the plain phrase does not.
 
-34\. **Inanimate subjects.** Objects given feelings to earn a clever verb: "the
+36\.  **Inanimate subjects.** Objects given feelings to earn a clever verb: "the
 index knows nothing of user patience". Name the mechanism instead.
 
-35\. **Orbiting sentences.** Sentences that circle a point through clause after
+37\.  **Orbiting sentences.** Sentences that circle a point through clause after
 clause, then land it like a revealed insight. Lead with the point.
 
-36\. **Wistful codas.** Philosophical sign-offs bolted onto technical text: "in
+38\.  **Wistful codas.** Philosophical sign-offs bolted onto technical text: "in
 the end, software is about the quiet promises systems make". Cut the coda; the
 instructions before it are the content.
 
@@ -194,27 +173,27 @@ instructions before it are the content.
 > run-up, not just its tone: "And honestly? Here's the thing: it fails under
 > high concurrency" becomes "It fails under high concurrency".
 
-37\. **Performed candor.** Announcing honesty before a routine claim: "I'll be
+39\.  **Performed candor.** Announcing honesty before a routine claim: "I'll be
 blunt:", "not going to lie", "let's be honest". Make the point directly.
 
-38\. **Staged revelation.** Dramatic run-ups that fake suspense: "Here's the
+40\.  **Staged revelation.** Dramatic run-ups that fake suspense: "Here's the
 thing:", "And honestly?". The claim that follows is usually ordinary. Cut the
 run-up.
 
-39\. **Audience directions.** Commands telling the reader when to react: "Let
+41\.  **Audience directions.** Commands telling the reader when to react: "Let
 that sink in", "Sit with that", "Read that again". Remove them.
 
-40\. **Announced emotion.** Telling the reader how to feel instead of showing
+42\.  **Announced emotion.** Telling the reader how to feel instead of showing
 what earned the feeling: "quietly devastating", "genuinely fascinating",
 "chillingly simple". Describe the thing.
 
-41\. **Self-narration.** Reporting the text's own effect on the writer: "this
+43\.  **Self-narration.** Reporting the text's own effect on the writer: "this
 one hit me", "I keep coming back to this". State the idea. Cut the reaction
 report.
 
-42\. **Ghost objections.** Arguing with objections nobody raised: "To be clear,
+44\.  **Ghost objections.** Arguing with objections nobody raised: "To be clear,
 I'm not saying...", "Don't get me wrong". Answer the actual point.
 
-43\. **Typographic drama.** Formatting doing the emphasis work: italics on
+45\.  **Typographic drama.** Formatting doing the emphasis work: italics on
 *actually*, "Every. Single. Day.", one-word paragraphs. Write the sentence so it
 needs none.
